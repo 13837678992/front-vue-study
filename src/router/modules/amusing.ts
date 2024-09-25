@@ -25,6 +25,14 @@ export default {
       meta: {
         title: "标签共享数据1"
       }
+    },
+    {
+      path: "/amusing/sharedWorker3",
+      name: "虚拟列表",
+      component: () => import("@/views/amusing/VirtualList.vue"),
+      meta: {
+        title: "虚拟列表"
+      }
     }
   ]
 } satisfies RouteConfigsTable;
